@@ -4,7 +4,7 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            System.Console.WriteLine("Hai Kalyani");
         }
     }
 }

@@ -9,7 +9,9 @@ namespace CSExercises
     public class Ex01
     {
         public static void Main(string[] args)
+
         {
+            System.Console.WriteLine("Good Morning Kalyani");
             
         }
     }
