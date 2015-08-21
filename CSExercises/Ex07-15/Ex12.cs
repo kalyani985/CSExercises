@@ -10,17 +10,17 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            int x1;
+            //int x1;
 
-            double t;
+            double t,x1;
 
             Console.WriteLine("Enter Distance value");
 
-            x1 = int.Parse(Console.ReadLine());
+            x1 = Convert.ToDouble(Console.ReadLine());
 
-            t = (float)2.40 + (x1 * 0.4);
+            t = 2.40 + (x1 * 0.4);
 
-            Console.WriteLine("Total fare {0}", Math.Round(t,1));          
+            Console.WriteLine("Total fare {0}", Math.Round(t,2));          
         }
     }
 }
